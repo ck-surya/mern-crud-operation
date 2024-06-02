@@ -1,0 +1,44 @@
+.student-list {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+  }
+  
+  .student-list table {
+    width: 100%;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+  
+  .student-list th, .student-list td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  .student-list th {
+    background-color: #f2f2f2;
+  }
+  
+  .student-list td a {
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  .student-list td a:hover {
+    text-decoration: underline;
+  }
+  
+  .student-list button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .student-list button:hover {
+    background-color: #ff0000;
+  }
+  
